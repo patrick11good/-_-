@@ -1,0 +1,539 @@
+ BODY {
+ 	background: url(../img/фон4.png);
+   flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100vh;
+  justify-content: flex-start;
+  margin: 0px;
+  width: 100vw;
+
+ }
+ form {
+  width:300px;
+  margin:auto;
+  margin-top:-210px;
+  margin-right:0px;
+  }
+  input{
+  padding:4px 10px;
+  border:0;
+  font-size:16px;
+  border: 1px solid #ccc;
+  color: #00FF00;
+  }
+  .search {
+  width: 75%;
+  background-color: #000000;
+  }
+  .submit{
+  width: 70px;
+  background-color: #008000;
+  color:#ffffff;
+  }
+  .font_color {
+  	text-align: right;
+  }
+  .text {
+  	text-decoration: none;
+  	color: #FFFFFF;
+  	font-size: 14;
+		font-family: Arial Black; 
+	   }
+	   .text:hover {
+    color: #FFFFFF;
+  }
+  @font-face {
+	font-family: Minecraft Rus Regular; 
+	src: url(../fonts/Minecraft Rus Regular.woff);
+}
+	.header_image {
+	margin-left: 400px;
+	margin-top: -20px;
+  width: 650px;
+  height: 100px;
+
+	}
+	.table_color {
+		color: #32CD32;
+
+	}
+	.block_color > a {
+  background: #000000;
+  color: #fff;
+  padding: 12px;
+  text-decoration: none;
+  line-height: 1;
+  font-weight: 100;
+  width: 200;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1600px;
+  margin-top: -80px;
+   display:  block;
+  overflow: hidden; 
+  border: 1px solid #000;
+
+	}
+	.text_2 {
+		color: #E0FFFF;
+		text-decoration: none;
+		font-size: 14;
+		font-family: Arial Black; 
+		 display: block;
+ 		overflow: hidden;
+	}
+	.text_2:hover {
+		background: linear-gradient(gray, white);
+		color: #000000;
+	}
+	.text_color {
+		margin-top: px;
+	}
+a {
+  text-decoration: none;
+}
+
+nav {
+  font-family: Arial Black;
+  font-size: 14px;
+  margin-top: 30px;
+  margin-left:20px;
+}
+
+ul {
+  background: #000000;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+li {
+  color: #fff;
+  background: #000000;
+  display: block;
+  float: left;
+  padding: 1rem;
+  position: relative;
+  text-decoration: none;
+  transition-duration: 0.5s;
+}
+  
+li a {
+  color: #fff; /* цвет шрифта по умолчанию */
+}
+
+li:hover {
+  background: url(../img/фон8.jpg);
+  cursor: pointer;
+}
+
+ul li ul {
+  background: #000000;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+
+ul li:hover > ul,
+ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+.image_block {
+	margin-top: 30px;
+	background: url(../img/фон3.jpg);
+	width: 1805px;
+	height: 750px;
+	margin-left: 20px;
+}
+.text_inimage {
+  position: absolute;
+top: 50%;
+left: 65px;
+text-transform: uppercase;
+color: white;
+width: 900px;
+height: 250px;
+background: #00000094;
+padding: 10px;
+margin-left: 400px;
+margin-top: -100px;
+font-size: 20px;
+font-family: Arial Black;
+}
+.new_block {
+  background: url(../img/фон11.jpg);
+  height: 600px;
+  width: 1550px;
+  margin-left: 150px;
+  margin-top: -70px;
+}
+.text_color_2 {
+  text-align: center;
+  font-family: Arial Black;
+  font-size: 40px;
+  margin-top: 100px;
+}
+.image_fon {
+  width: 800px;
+  height: 600px;
+  margin-left: 150px;
+  margin-top: -30px;
+}
+.text_color_3 {
+  text-align: center;
+  font-family: Arial Black;
+  width: 300px;
+  margin-left: 400px;
+  font-size: 20px;
+  margin-top: -10px;
+}
+.text_color_4 {
+  text-align: center;
+  font-family: Arial Black;
+  font-size: 20px;
+  background: #000000;
+  color: #fff;
+  padding: 12px;
+  text-decoration: none;
+  line-height: 1;
+  font-weight: 100;
+  width: 200;
+  align-items: center;
+  justify-content: center;
+   display:  block;
+  overflow: hidden; 
+  border: 1px solid #000;
+  margin-left: 430px;
+  margin-top: 10px;
+}
+.text_3 {
+  color: #E0FFFF;
+    text-decoration: none;
+    font-size: 14;
+    font-family: Arial Black; 
+     display: block;
+    overflow: hidden;
+}
+body {
+  background-color: #24292d;
+}
+.slider {
+  position: relative;
+  width: 680px;
+  margin: 50px auto;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+}
+.slider input[name="switch"] {
+  display: none;
+}
+.switch {
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  text-align: center;
+  width: 100%;
+}
+.switch label {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  margin: 0 3px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+  border-radius: 50%;
+  border: 5px solid #2f363c;
+  background-color: #738290;
+}
+#btn1:checked~.switch label[for="btn1"] {
+  background-color: white;
+}
+#btn2:checked~.switch label[for="btn2"] {
+  background-color: white;
+}
+#btn3:checked~.switch label[for="btn3"] {
+  background-color: white;
+}
+.slider-inner {
+  overflow: hidden;
+}
+.slides {
+  width: 300%;
+  transition: all 0.5s;
+}
+.slides img {
+  width: 680px;
+  height: 340px;
+  float: left;
+}
+#btn1:checked~slider-inner slides {
+  transform: translate(0);
+}
+#btn2:checked~.slider-inner .slides {
+  transform: translate(-680px);
+}
+#btn3:checked~.slider-inner .slides {
+  transform: translate(-1360px);
+}
+#content {
+    width: 500px; /* Ширина слоя */
+    margin: 0 auto 50px; /* Выравнивание по центру */
+   }
+   #footer {
+     /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: url(../img/фон6.png); /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 1850px; /* Ширина слоя */
+    height: 650px;
+    margin-top: 50px;
+   }
+   .image_fon {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 50px;
+   }
+   .image_fon2 {
+    margin-left: 50px;
+    margin-top: 200px;
+    width: 300px;
+   }
+   .game1 {
+    text-decoration: none;
+    font-family: Arial Black;
+    color: #FFFFFF;
+    background:#000000;
+   }
+   .game2 {
+    text-decoration: none;
+    font-family: Arial Black;
+    color: #FFFFFF;
+    background:#000000;
+   }
+   .game3 {
+    text-decoration: none;
+    font-family: Arial Black;
+    color: #FFFFFF;
+    background:#000000;
+   }
+   .game4 {
+    font-family: Arial Black;
+    color: #FFFFFF;
+    margin-left: 900px;
+    margin-top: -100px;
+   }
+   .game5 {
+    font-family: Arial Black;
+    color: #FFFFFF;
+    margin-left: 900px;
+    margin-top: -300px;
+   }
+   .game6 {
+    text-decoration: none;
+    font-family: Arial Black;
+    color: #FFFFFF;
+    background:#000000;
+   }
+   .game7 {
+    text-decoration: none;
+    font-family: Arial Black;
+    color: #FFFFFF;
+    background:#000000;
+   }
+   .image_fon {
+    width: 500px;
+    height:300px;
+    margin-top: 20px;
+    margin-left: 20px;
+   }
+    .textField, .passField {
+    width: 100%; /* Ширина поля */
+    padding: 10px; /* Поля */
+    box-sizing: border-box; /* Алгоритм расчёта ширины */
+    box-shadow: inset 0 1px 5px rgba(0,0,0,0.2); /* Тень внутри */
+    border: 1px solid #ccc; /* Параметры рамки */
+    color: #ff6d37; /* Цвет текста */
+    background: url(/example/image/user.png) no-repeat 5px 50%; /* Картинка пользователя */
+    padding-left: 30px; /* Расстояние от левого края */
+   }
+   .passField {
+    background: url(/example/image/lock.png) no-repeat 5px 50%; /* Картинка для поля с паролем */
+   }
+   .div_fon {
+    background-position: ;
+   }
+   .fon_image {
+    width: 1550px;
+    height: 700px;
+    margin-left: 150px;
+    margin-top: 30px;
+   }
+   .iframe_video {
+    margin-left: 500px;
+    margin-top: -500px;
+   }
+   .image_fon3 {
+    margin-top: 30px;
+  width: 1805px;
+  height: 750px;
+  margin-left: 20px;
+   }
+   .form1 {
+    margin-left: 700px;
+    margin-top: -600px;
+    background: rgba(0, 170, 238, 0.9); /* Цвет фона */
+    padding: 5px; /* Поля вокруг текста */
+   }
+   * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+  font-family: Arial Black;
+}
+.container {
+  display: flex;
+  margin-left: 700px;
+  margin-top: -700px;
+}
+.screen {   
+  background: url(../img/фон10.jpg);;   
+  position: relative; 
+  height: 600px;
+  width: 360px; 
+}
+.screen__content {
+  z-index: 1;
+  position: relative; 
+  height: 100%;
+}
+.screen__background {   
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  -webkit-clip-path: inset(0 0 0 0);
+  clip-path: inset(0 0 0 0);  
+}
+.screen__background__shape {
+  transform: rotate(45deg);
+  position: absolute;
+}
+.screen__background__shape1 {
+  height: 520px;
+  width: 520px;
+  background: url(../img/фон6.png); 
+  top: -50px;
+  right: 120px; 
+  border-radius: 0 72px 0 0;
+}
+.screen__background__shape2 {
+  height: 220px;
+  width: 220px;
+  background: url(../img/фон6.png);  
+  top: -172px;
+  right: 0; 
+  border-radius: 32px;
+}
+.screen__background__shape4 {
+  height: 400px;
+  width: 200px;
+  background: url(../img/фон6.png);  
+  top: 420px;
+  right: 50px;  
+  border-radius: 60px;
+}
+.login {
+  width: 320px;
+  padding: 30px;
+  padding-top: 156px;
+}
+.login__field {
+  padding: 20px 0px;  
+  position: relative; 
+}
+.login__icon {
+  position: absolute;
+  top: 30px;
+  
+}
+.login__input {
+  border: none;
+  border-bottom: 2px solid #D1D1D4;
+  padding: 10px;
+  margin-left: -50px;
+  font-weight: 700;
+  width: 300px;
+  transition: .2s;
+  margin-top: 70px;
+  color: #000000;
+
+}
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+  outline: none;
+}
+.login__submit {
+  background: #fff;
+  font-size: 14px;
+  margin-top: 30px;
+  padding: 16px 20px;
+  border-radius: 26px;
+  text-transform: uppercase;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  color: #000000;
+  cursor: pointer;
+  transition: .2s;
+}
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+  border-color: #6A679E;
+  outline: none;
+}
+.button__icon {
+  font-size: 24px;
+  margin-left: auto;
+}
+.social-login { 
+  position: absolute;
+  height: 140px;
+  width: 160px;
+  text-align: center;
+  bottom: 0px;
+  right: 0px;
+  
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social-login__icon {
+  padding: 20px 10px;
+  text-decoration: none;  
+}
+.social-login__icon:hover {
+  transform: scale(1.5);  
+}
+
+
+
